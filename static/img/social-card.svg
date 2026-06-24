@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1f44"/>
+      <stop offset="1" stop-color="#1f5fd6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="80" y="230" fill="#7fd1ff" font-family="Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="4">SKUNKWORKS ACADEMY · SELF-PACED</text>
+  <text x="80" y="330" fill="#ffffff" font-family="Arial, sans-serif" font-size="78" font-weight="800">IBM DataPower Gateway</text>
+  <text x="80" y="410" fill="#cfe0ff" font-family="Arial, sans-serif" font-size="40" font-weight="500">Secure · Transform · Route at the edge</text>
+  <text x="80" y="540" fill="#9fb8e8" font-family="Arial, sans-serif" font-size="28">A hands-on online course</text>
+</svg>

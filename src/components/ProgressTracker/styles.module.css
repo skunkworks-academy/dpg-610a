@@ -1,0 +1,130 @@
+.tracker {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-card-border-radius);
+  background: var(--ifm-background-surface-color);
+  padding: 1.75rem;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.heading {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.sub {
+  margin: 0.25rem 0 0;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.9rem;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.doneBadge {
+  font-weight: 700;
+  color: var(--ifm-color-success);
+}
+
+.bar {
+  position: relative;
+  height: 1.5rem;
+  border-radius: 999px;
+  background: var(--ifm-color-emphasis-200);
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.fill {
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--ifm-color-primary),
+    var(--ifm-color-primary-light)
+  );
+  transition: width 0.4s ease;
+}
+
+.barLabel {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ifm-font-color-base);
+  mix-blend-mode: difference;
+}
+
+.modules {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.moduleRow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 6rem 2.5rem;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.moduleLabel {
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.moduleBar {
+  height: 0.5rem;
+  border-radius: 999px;
+  background: var(--ifm-color-emphasis-200);
+  overflow: hidden;
+}
+
+.moduleFill {
+  height: 100%;
+  background: var(--ifm-color-success);
+  transition: width 0.4s ease;
+}
+
+.moduleCount {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+  text-align: right;
+}
+
+.reset {
+  margin-top: 1.25rem;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-button-border-radius);
+  background: transparent;
+  color: var(--ifm-color-emphasis-600);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.8rem;
+}
+
+.reset:hover {
+  color: var(--ifm-color-danger);
+  border-color: var(--ifm-color-danger);
+}
+
+@media (max-width: 600px) {
+  .moduleRow {
+    grid-template-columns: minmax(0, 1fr) 3.5rem 2.5rem;
+  }
+}

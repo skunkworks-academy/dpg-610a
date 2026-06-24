@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Skunkworks Academy">
+  <rect x="3" y="3" width="42" height="42" rx="10" fill="#1f5fd6"/>
+  <path d="M14 32V16h4.2l5.8 9 5.8-9H34v16h-4V23l-6 9-6-9v9z" fill="#fff"/>
+  <circle cx="36" cy="13" r="3" fill="#7fd1ff"/>
+</svg>
