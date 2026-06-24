@@ -1,0 +1,124 @@
+.quiz {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-card-border-radius);
+  background: var(--ifm-background-surface-color);
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0 0 1rem;
+}
+
+.titleIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: var(--ifm-color-primary);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.question + .question {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px dashed var(--ifm-color-emphasis-300);
+}
+
+.prompt {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.options {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.6rem 0.85rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-button-border-radius);
+  background: var(--ifm-background-color);
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.option:hover:not(:disabled) {
+  border-color: var(--ifm-color-primary);
+}
+
+.option:disabled {
+  cursor: default;
+}
+
+.marker {
+  display: inline-flex;
+  width: 1.1rem;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.chosen {
+  border-color: var(--ifm-color-primary);
+}
+
+.correct {
+  border-color: var(--ifm-color-success);
+  background: var(--ifm-color-success-contrast-background);
+  color: var(--ifm-color-success-contrast-foreground);
+}
+
+.wrong {
+  border-color: var(--ifm-color-danger);
+  background: var(--ifm-color-danger-contrast-background);
+  color: var(--ifm-color-danger-contrast-foreground);
+}
+
+.feedback {
+  margin-top: 0.85rem;
+  padding: 0.75rem 1rem;
+  border-radius: var(--ifm-button-border-radius);
+  font-size: 0.95rem;
+}
+
+.feedbackCorrect {
+  background: var(--ifm-color-success-contrast-background);
+  color: var(--ifm-color-success-contrast-foreground);
+}
+
+.feedbackWrong {
+  background: var(--ifm-color-warning-contrast-background);
+  color: var(--ifm-color-warning-contrast-foreground);
+}
+
+.retry {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.2rem 0.6rem;
+  border: 1px solid currentColor;
+  border-radius: var(--ifm-button-border-radius);
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.85rem;
+}

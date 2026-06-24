@@ -1,0 +1,35 @@
+/**
+ * Skunkworks Academy theming for the IBM DataPower Gateway course.
+ * Primary palette draws on IBM-style blue with a warmer accent.
+ */
+
+:root {
+  --ifm-color-primary: #1f5fd6;
+  --ifm-color-primary-dark: #1c56c1;
+  --ifm-color-primary-darker: #1a51b6;
+  --ifm-color-primary-darkest: #154396;
+  --ifm-color-primary-light: #3b75de;
+  --ifm-color-primary-lighter: #4a7fe0;
+  --ifm-color-primary-lightest: #7099e8;
+
+  --ifm-code-font-size: 95%;
+  --ifm-card-border-radius: 12px;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #6fa0f0;
+  --ifm-color-primary-dark: #4d88ed;
+  --ifm-color-primary-darker: #3b7ceb;
+  --ifm-color-primary-darkest: #1860d8;
+  --ifm-color-primary-light: #91b8f3;
+  --ifm-color-primary-lighter: #a3c3f5;
+  --ifm-color-primary-lightest: #d6e4fb;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Slightly roomier reading width for lesson content. */
+.markdown {
+  --ifm-h2-vertical-rhythm-top: 2.5;
+}
