@@ -5,7 +5,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'IBM DataPower Gateway',
   tagline: 'A self-paced, hands-on course by Skunkworks Academy',
-  favicon: 'img/favicon.svg',
+  // Classic .ico for the broadest browser/tab support; richer formats
+  // (SVG, PNG, apple-touch, web manifest) are declared in `headTags` below.
+  favicon: 'img/favicon.ico',
 
   // Production url of your site.
   url: 'https://skunkworks-academy.github.io',
@@ -32,6 +34,59 @@ const config: Config = {
     },
   },
   themes: ['@docusaurus/theme-mermaid'],
+
+  // Full favicon / app-icon set. Paths include the baseUrl because headTags
+  // are emitted verbatim (unlike the `favicon` field, which prepends it).
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: '/ibm-datapower-gateway/img/favicon.svg',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/ibm-datapower-gateway/img/favicon-32.png',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/ibm-datapower-gateway/img/favicon-16.png',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/ibm-datapower-gateway/img/apple-touch-icon.png',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'manifest',
+        href: '/ibm-datapower-gateway/site.webmanifest',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'theme-color',
+        content: '#1f5fd6',
+      },
+    },
+  ],
 
   presets: [
     [
