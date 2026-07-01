@@ -13,7 +13,7 @@ const config: Config = {
   url: 'https://skunkworks-academy.github.io',
   // Pathname under which the site is served. For GitHub project pages this is
   // '/<projectName>/'.
-  baseUrl: '/ibm-datapower-gateway/',
+  baseUrl: '/dpg-610a/',
 
   // GitHub pages deployment config.
   organizationName: 'skunkworks-academy',
@@ -43,7 +43,7 @@ const config: Config = {
       attributes: {
         rel: 'icon',
         type: 'image/svg+xml',
-        href: '/ibm-datapower-gateway/img/favicon.svg',
+        href: '/dpg-610a/img/favicon.svg',
       },
     },
     {
@@ -52,7 +52,7 @@ const config: Config = {
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: '/ibm-datapower-gateway/img/favicon-32.png',
+        href: '/dpg-610a/img/favicon-32.png',
       },
     },
     {
@@ -61,7 +61,7 @@ const config: Config = {
         rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
-        href: '/ibm-datapower-gateway/img/favicon-16.png',
+        href: '/dpg-610a/img/favicon-16.png',
       },
     },
     {
@@ -69,14 +69,14 @@ const config: Config = {
       attributes: {
         rel: 'apple-touch-icon',
         sizes: '180x180',
-        href: '/ibm-datapower-gateway/img/apple-touch-icon.png',
+        href: '/dpg-610a/img/apple-touch-icon.png',
       },
     },
     {
       tagName: 'link',
       attributes: {
         rel: 'manifest',
-        href: '/ibm-datapower-gateway/site.webmanifest',
+        href: '/dpg-610a/site.webmanifest',
       },
     },
     {
@@ -95,7 +95,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/skunkworks-academy/ibm-datapower-gateway/tree/main/',
+            'https://github.com/skunkworks-academy/dpg-610a/tree/main/',
         },
         blog: false,
         theme: {
@@ -143,7 +143,7 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://github.com/skunkworks-academy/ibm-datapower-gateway',
+          href: 'https://github.com/skunkworks-academy/dpg-610a',
           label: 'GitHub',
           position: 'right',
         },
@@ -165,11 +165,11 @@ const config: Config = {
           items: [
             {
               label: 'IBM DataPower Docs',
-              href: 'https://www.ibm.com/docs/en/datapower-gateway',
+              href: 'https://www.ibm.com/docs/en/dpg-610a',
             },
             {
               label: 'IBM DataPower Product',
-              href: 'https://www.ibm.com/products/datapower-gateway',
+              href: 'https://www.ibm.com/products/dpg-610a',
             },
           ],
         },
@@ -178,7 +178,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/skunkworks-academy/ibm-datapower-gateway',
+              href: 'https://github.com/skunkworks-academy/dpg-610a',
             },
           ],
         },
