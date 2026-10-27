@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'A self-paced, hands-on course by Skunkworks Academy',
   // Classic .ico for the broadest browser/tab support; richer formats
   // (SVG, PNG, apple-touch, web manifest) are declared in `headTags` below.
-  favicon: 'img/favicon.ico',
+  favicon: 'images/favicon-search.png',
 
   // Production url of your site.
   url: 'https://skunkworks-academy.github.io',
@@ -42,8 +42,8 @@ const config: Config = {
       tagName: 'link',
       attributes: {
         rel: 'icon',
-        type: 'image/svg+xml',
-        href: '/dpg-610a/img/favicon.svg',
+        type: 'image/png',
+        href: 'https://www.skunkworksacademy.com/images/favicon-search.png',
       },
     },
     {
@@ -51,8 +51,8 @@ const config: Config = {
       attributes: {
         rel: 'icon',
         type: 'image/png',
-        sizes: '32x32',
-        href: '/dpg-610a/img/favicon-32.png',
+        sizes: '96x96',
+        href: 'https://www.skunkworksacademy.com/images/favicon-search.png',
       },
     },
     {
@@ -60,8 +60,8 @@ const config: Config = {
       attributes: {
         rel: 'icon',
         type: 'image/png',
-        sizes: '16x16',
-        href: '/dpg-610a/img/favicon-16.png',
+        sizes: '96x96',
+        href: 'https://www.skunkworksacademy.com/images/favicon-search.png',
       },
     },
     {
